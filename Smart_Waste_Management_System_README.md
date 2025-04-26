@@ -47,21 +47,6 @@ This displays a menu where you can choose from various choices to interact with 
 6. **Simulate Overflow Alert**: Simulates an overflow alert for a given bin if it is **full**.
 7. **Exit**: Exits the program.
 
-### Example Interaction:
-```
-1. Insert Bin
-2. Search Bin
-3. Update Bin
-4. Delete Bin
-5. Display Bins
-6. Simulate Overflow Alert
-7. Exit
-Choice: 1
-
-Enter bin ID (numeric value): 1
-Enter waste level (e.g., 'half full', 'full'): half full
-Bin inserted successfully.
-```
 
 ### How Data is Stored:
 - The **bin ID** is stored as the **key**, and the **waste level** is stored as the **value** in the hash table.
